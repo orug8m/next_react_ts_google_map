@@ -45,7 +45,8 @@ class SimpleMap extends Component {
 export default SimpleMap
 
 const Wrapper = styled.span`
+  background-color: white;
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 50px;
 `

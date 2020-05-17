@@ -8,8 +8,7 @@ TypeScript 3.8.3
 
 ## with
 
-google-map-react
-https://github.com/google-map-react/google-map-react/blob/master/src/google_map.js
+[google-map-react](https://github.com/google-map-react/google-map-react/blob/master/src/google_map.js)
 
 ## install
 
@@ -74,8 +73,7 @@ $ yarn dev
 
 **memo**
 取得しなくても、後半の `bootstrapURLKeys` 部分をコメントアウトしてなにも渡さなければ `developer mode` （薄暗い画面に developer mode の文字がでる）になるので初期のデザイン段階ではなくてもレイアウトくらいなら見れる
-
-https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ja
+[Google Map API key 取得](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ja)
 
 ### 環境変数に Api Key を保存して Next のフロントで使えるようにする
 
@@ -153,6 +151,7 @@ export default SimpleMap;
 
 ## その他
 
-tsconfig.json のﾊ paths 欄でパスを変更
-styled-component の ThemeProvidor を使用
-redux 使えるようにしておく（最近は recoil が Facebook から出た）
+- tsconfig.json の paths 欄でroot pathを `@` に設定
+- styled-component の ThemeProvidor を使用
+- redux 使えるようにしておく（最近は recoil が Facebook から出た）
+- Next9.4にしたからか、 `Warning: Built-in CSS support is being disabled due to custom CSS configuration being detected.` が出てる
